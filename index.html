@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La Vecchia</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="init()">
+			<h1>La Vecchia Dama</h1>
+
+			<table>
+				<tr><td>Vincite</td><td id="vincite">0</td></tr>
+				<tr><td>Perdite</td><td id="perdite">0</td></tr>
+			</table>
+
+			<div id="1" onclick="scegliCarta(this.id)"></div>
+			<div id="2" onclick="scegliCarta(this.id)"></div>
+			<div id="3" onclick="scegliCarta(this.id)"></div>
+
+			<button type="button" onclick="nuovaPartita()">Nuova partita</button>
+
+	</body>
+</html>
